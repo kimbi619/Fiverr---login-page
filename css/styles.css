@@ -13,7 +13,7 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-button{
+button, button:active{
     outline: none;
     border: none;
 }
@@ -144,14 +144,16 @@ button{
     background-color: #fff;
     padding: 1rem;
 }
+
 .submitBtn{
     padding: .4rem 5rem;
-    background-color: #6F6B6A;
+    background-color: #0D2E5C;
     color: #fff;
     border-radius: 30px;
     font-size: 1rem;
     margin: 2rem auto;
     cursor: pointer;
+    text-decoration: none;
 }
 .signupBtn{
     border-top: 1px solid #6f6b6a28;
@@ -172,7 +174,6 @@ button{
         max-width: 60rem;
         height: 45rem;
         display: flex;
-        background-color: blue;
     }
     .loginForm{
     transform: translateY(0%);
